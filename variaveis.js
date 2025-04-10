@@ -1,4 +1,8 @@
 // biome-ignore lint/style/useConst: <explanation>
 const nome = "Luciano"
 const lastName = "bora"
-console.log(`Olá, ${nome} ${lastName}`)
+const idade = 57
+const peso = 2.10
+const altura = 3.20
+console.log(` A soma do peso mais a altura é ${peso + altura }...`)
+console.log(`Olá, ${nome} ${lastName} ${idade} ${peso} é minha idade`)
