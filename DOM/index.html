@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+
+<body>
+    <!-- feito dentro do atributo da tag -->
+    <button onclick="alert('abrindo janela pelo js')">Click me!</button>
+    <!--script incorporado  -->
+    <button id="abreAlert"> Abre tesezamo</button>
+
+    <script>
+        const btabreAlert = document.querySelector("#abreAlert")
+        btabreAlert.addEventListener("click", () => {
+            alert("Abrindo janela pelo script incorporado")
+        })
+
+    </script>
+</body>
+
+</html>
