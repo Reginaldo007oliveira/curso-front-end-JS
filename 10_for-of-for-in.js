@@ -6,5 +6,6 @@ let frutas = ["banana","mamao","abacate","pessego","limao"]
 
 let pessoa = {nome:"João", idade:55, genero:"masculino"}
 for(let key in pessoa){
-    console.log(key + " " + pessoa[key])
+    // console.log(key + " " + pessoa[key])
+    console.log(`${key} ${pessoa[key]}`)
 }
