@@ -16,6 +16,6 @@ const usuario = {
 console.log(` A soma do peso mais a altura é ${peso + altura }...`)
 console.log(`Olá, ${nome} ${lastName} ${idade} ${peso} é minha idade`)
 console.log("frutas", frutas)
-console.log(frutas[2])
+console.log( frutas[2])
 console.log(usuario.lastName)
-console.log(usuario)
+console.log( typeof usuario)
