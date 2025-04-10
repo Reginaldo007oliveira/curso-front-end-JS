@@ -7,7 +7,7 @@
 
 
 function escopo(){
-    let variavelLocal = "Eu sou uma variável local"
+    const variavelLocal = "Eu sou uma variável local"
     console.log(variavelLocal)
 }
 escopo()
