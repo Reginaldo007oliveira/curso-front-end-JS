@@ -1,8 +1,6 @@
-const numero01 = 4
+const numero01 = 8
 const numero02 = 4
-const numero03 =5
+const resultado = numero01+numero02
+console.log(`a soma dos numeros são: ${resultado}`)
 
 // ==, ===, !=, > , < >= , <=
-
-const resultado = numero01 === numero02
-console.log(resultado)
