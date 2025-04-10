@@ -1,9 +1,10 @@
-const notaFinal = 4
+const notaFinal = 6
 const frequencia =6
 
-if ( notaFinal >= 7){ 
-    console.log("Aluno aprovado")
+if ( notaFinal >= 4 && frequencia >=6){ 
+   
+    console.log("Aluno em recuperacao")
+    
+    
 }
-else { 
-console.log("Aluno reprovado")
-}
+
