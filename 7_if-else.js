@@ -1,4 +1,4 @@
-const notaFinal = 8
+const notaFinal = 4
 const frequencia =6
 
 if ( notaFinal >= 7){ 
