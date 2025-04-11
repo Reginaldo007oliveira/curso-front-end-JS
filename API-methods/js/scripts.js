@@ -14,13 +14,25 @@
 //             container.appendChild(h2)
 //         })
 // 	});
+//PUT ATUALIZA O OBJETO TODO
+// fetch('https://jsonplaceholder.typicode.com/posts/1', {
+//     method: 'PUT',
+//     body: JSON.stringify({
+//       title: 'fooBORA',
+//       body: 'bar',
+//       userId: 1,
+//     }),
+//     headers: {
+//       'Content-type': 'application/json; charset=UTF-8',
+//     },
+//   })
+//     .then((response) => response.json())
+//     .then((json) => console.log(json));
 
 fetch('https://jsonplaceholder.typicode.com/posts/1', {
-    method: 'PUT',
+    method: 'PATCH',
     body: JSON.stringify({
-      title: 'fooBORA',
-      body: 'bar',
-      userId: 1,
+      title: 'foo',
     }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
