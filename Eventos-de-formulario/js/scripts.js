@@ -25,7 +25,7 @@ function searchResult() {
         resultadoDiv.textContent = "Por favor, insira algo na busca."
 	}
 }
-// evento de click no botao
+// aqui é feita a relação com o Id do html e passando a função para 
 botaoBusca.addEventListener("click", (e) =>{
     searchResult()
 })
