@@ -19,3 +19,25 @@ const classText = document.getElementsByClassName("text")
  for(title of titles){
     title.style.fontSize = "66px"
  }
+
+ const elementFeature = document.querySelector("#feature")
+
+
+
+ const newElement = document.createElement("p")
+ newElement.textContent = "Este é um novo parágrafo"
+ elementFeature.appendChild(newElement)
+// modifica o texto
+;
+
+ document.body.insertBefore(newElement, elementFeature)
+//query selectorAll
+const links = document.querySelectorAll("#links a")
+
+console.log("Links", links)
+
+for(link of links){
+    link.classList.add("feature-links")
+}
+
+
