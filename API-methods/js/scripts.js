@@ -15,10 +15,10 @@
 //         })
 // 	});
 
-fetch('https://jsonplaceholder.typicode.com/posts', {
-    method: 'POST',
+fetch('https://jsonplaceholder.typicode.com/posts/1', {
+    method: 'PUT',
     body: JSON.stringify({
-      title: 'foo',
+      title: 'fooBORA',
       body: 'bar',
       userId: 1,
     }),
